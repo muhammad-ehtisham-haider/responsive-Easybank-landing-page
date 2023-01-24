@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1440px) {
+
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    .navbar ul{
+     display: flex;
+     margin-top: 10px;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin-right:20px ;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: gray;
+    }
+    .navbar ul li a:hover{
+        text-decoration: underline;
+        text-underline-offset: 25px;
+        text-decoration-color:  hsl(155, 100%, 83%);
+        text-decoration-thickness:5px ;
+    }
+    .btn-1 button{
+        color: white;
+        background-image: linear-gradient( to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    .btn-1 button:hover{
+        cursor: pointer;
+        background-image: linear-gradient( to right, hsl(136, 72%, 80%),hsl(192, 61%, 76%));
+    }
+    .one{
+        width: 100%;
+        height: 500px;
+        background-color: hsl(0, 0%, 98%);
+        /* margin-top: 20px; */
+        display: flex;
+    }
+    .one .content{
+        width: 40%;
+        margin-left: 10%;
+        padding-right: 120px;
+    }
+    .content h1{
+        margin-top: 100px;
+    }
+    .para-1 p{
+        margin-top: 30px;
+        color: gray;
+    }
+    .content .btn-1{
+        margin-top: 30px;
+    }
+    .image{
+        width: 60%;
+        background-image: url(images/bg-intro-desktop.svg);
+        background-position: 60px -150px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+    }
+    .image img{
+        width: 500px;
+        height: 700px;
+      /* position: absolute; */
+      /* clip: rect(95px, 490px, 700px, 0); */
+        margin-top: -95px;
+        margin-left: 390px;
+    }
+    .onee{
+        overflow: hidden;
+        height: 90vh;
+        background-color:hsl(220, 16%, 96%);
+        margin-top: 20px;
+    }
+    .chosse{
+        width: 100%;
+        padding: 0 10% 10% 10%;
+        background-color:hsl(220, 16%, 96%);
+        
+    }
+    .chosse .para-1{
+        width: 500px;
+    }
+    .options{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .banking{
+        width: 200px;
+    }
+    .banking h3{
+        margin-top: 10px;
+        /* color: hsl(233, 8%, 62%); */
+    }
+    .para-2 p{
+        margin-top: 10px;
+        color: gray;
+    }
+    .banking img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .articles{
+        width: 100%;
+        background-color:hsl(0, 0%, 98%) ;
+        padding:0 10% 5% 10%;
+    }
+    .articles h2{
+        margin-top: 60px;
+        color: hsl(233, 26%, 24%);
+        font-size: 35px;
+    }
+    .details{
+        display: flex;
+        justify-content: space-between;
+    }
+    .article{
+        margin-top: 40px;
+        width: 250px;
+        background-color: white;
+    }
+    .photo img{
+        width: 250px;
+        height: 180px;
+    }
+    .names{
+        padding: 20px;
+    }
+    .auther{
+        color: gray;
+        font-size: 12px;
+    }
+    .para-3 p{
+        color: hsl(233, 26%, 24%);
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .para-3 p:hover{
+        cursor: pointer;
+        color:hsl(136, 65%, 51%) ;
+    }
+    .para-4{
+        margin-top: 10px;
+        color: gray;
+        font-size: 15px;
+    }
+    
+    
+    footer{
+        background-color: hsl(233, 26%, 24%);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5% 10%;
+    }
+    .lists{
+        display: flex;
+    }
+    .lists ul li{
+        list-style: none;
+        color: white;
+        margin-top: 10px;
+    }
+    .lists ul li:hover{
+        cursor: pointer;
+        color: hsl(136, 65%, 51%);
+    }
+    .b,.c{
+        margin-left: 90px;
+    }
+    .logos{
+        margin-top: 40px;
+    }
+    
+    .lo img{
+        filter: invert(100%);
+    }
+    .logos img{
+        margin-left: 5px;
+    }
+    .logos img:hover{
+        cursor: pointer;
+        filter: invert(50%);
+    }
+    
+    .click{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .text{
+        margin-top: 40px;
+        color: lightgray;
+    } 
+    #navbar{
+        position: absolute;
+        width: 90% ;
+        left: 5%;
+        top: 60px;
+        border-radius: 20px;
+        background-color: white;
+    
+      
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        }
+        #navbar ul li{
+            margin-top: 20px;
+        }
+        #navbar ul li a{
+            color: black;
+            text-underline-offset: 10px;
+        }
+        
+        .toggle{
+            display: none;
+        }
+        #close{
+            display: none;
+        }
+        .mobile-bar{
+            display: flex;
+        }
+        .mob{
+            display: none;
+        }
+        .mobile-one{
+            display: none;
+        }
+
+}
+
+@media screen and (max-width:600px) {
+    .mob{
+        display: block;
+    }
+    .disktop-btn{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    #show{
+        margin-top: 10px;
+    }
+    .options{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+    }
+    .banking{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lists{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .lists ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .click{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .b, .c{
+        margin-left: -10px;
+    }
+    .chosse{
+        padding-top: 20px;
+    }
+    .chosse .para-1{
+        width: 100%;
+        text-align: center;
+    }
+    .chosse h2{
+        text-align: center;
+    }
+    .banking{
+        width: 100%;
+    }
+    .onee{
+        display: none;
+    }
+    .mob{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-one{
+        display: block;
+        z-index: 0;
+        width: 100%;
+
+    }
+    .mob-image{
+        height: 320px;
+        /* background-color: aquamarine; */
+        overflow: hidden;
+        display: grid;
+        place-items: center;
+        background-image: url(images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -110px;
+    }
+    .mob-image img{
+        width: 400px;
+        height: 440px;
+        margin-top: -130px;
+    }
+    .mob-content{
+        padding: 10%;
+        text-align: center;
+    }
+    .mob-content .btn-1{
+        margin-top: 20px;
+    }
+}
